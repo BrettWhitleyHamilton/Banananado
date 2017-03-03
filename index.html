@@ -10,27 +10,38 @@
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 </head>
 <body>
-<header id="topBar"> 
+<header id="topBar">
+<div class="row">
+<div class="col-md-9"></div> 
+<div class="row col-md-3">
 <ul class="linkContainer">
-	<li id="work" class="links">Work</li>
-	<li id="about" class="links">About Me</li>
-	<li id="contact"class="links">Contact</li>
+	<li id="work" class="links col-md-4">Work</li>
+	<li id="about" class="links col-md-4">About Me</li>
+	<li id="contact"class="links col-md-4">Contact</li>
 </ul>
-</header>
-<div id="welcome">
-	<div ><img id="logo"src="images/logo.png"></div>
-	<div id="welcome_text">Welcome to Bananando</div>
 </div>
-<div id="work_can_offer">
-	<div="mobile_apps">
+</div>
+</header>
+<div class="row">
+<div id="welcome">
+<div class="col-md-4"></div>
+<div class="col-md-4">
+	<div ><img class="center-block"id="logo"src="images/logo.png"></div>
+	<h1 id="welcome_text">Welcome to Bananando</h1>
+	</div>
+	<div class="col-md-4"></div>
+</div>
+</div>
+<div id="work_can_offer" class="row">
+	<div id="mobile_apps" class="col-md-4">
 		<div id="mobileImage"></div>
 		<div id="mobileText"></div>
 		</div>
-		<div id="web_dev">
+		<div id="web_dev" class="col-md-4">
 		<div id="webImage"></div>
 		<div id="webText"></div>
 		</div>
-		<div id="graphics">
+		<div id="graphics" class="col-md-4">
 		<div id="graphicsImage"></div>
 		<div id="graphicsText"></div>
 		</div>

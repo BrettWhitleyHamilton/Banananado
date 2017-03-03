@@ -1,22 +1,21 @@
 #logo{
 	height: auto;
-	width: 20%;
+	width: 80%;
+
 }
 
-*{
-	border:30px;
-	border-color: red;
-}
-.linkContainer{
-	float: right;
-  display: flex;
-  margin:auto;
-}
+* {outline : 1px solid red; }
+
 .links{
-	margin: 10px;
-}
+display: inline-block;}
+
 ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+#welcome_text{
+	text-align: center; 
+}
+#welcome{
+	margin-top: 3.5%;
+	margin-bottom: 3.5%;
 }
