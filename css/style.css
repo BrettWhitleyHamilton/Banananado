@@ -1,6 +1,6 @@
 #logo{
 	height: auto;
-	width: 80%;
+	width: 25%;
 
 }
 
@@ -16,6 +16,11 @@ ul {
 	text-align: center; 
 }
 #welcome{
-	margin-top: 3.5%;
-	margin-bottom: 3.5%;
+	margin-top: 5%;
+	margin-bottom: 10%;
+}
+
+.icons{
+	height: auto;
+	width: 50%
 }
