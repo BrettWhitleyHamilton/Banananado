@@ -24,3 +24,15 @@ ul {
 	height: auto;
 	width: 50%
 }
+#pic_of_me{
+	transform: rotate(270deg);
+	border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 100%;
+    height: 15%;
+}
+#me{
+
+	margin-top: 10%;
+}
