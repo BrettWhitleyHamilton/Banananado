@@ -8,15 +8,9 @@
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/index.js"/></script>	
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<?php include "navigation.html"; ?>
 </head>
 <body>
-<header id="topBar"> 
-<ul class="linkContainer">
-	<li id="work" class="links">Work</li>
-	<li id="about" class="links">About Me</li>
-	<li id="contact"class="links">Contact</li>
-</ul>
-</header>
 <div id="welcome">
 	<div ><img id="logo"src="images/logo.png"></div>
 	<div id="welcome_text">Welcome to Bananando</div>

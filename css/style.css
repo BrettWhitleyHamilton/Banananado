@@ -1,0 +1,22 @@
+#logo{
+	height: auto;
+	width: 20%;
+}
+
+*{
+	border:30px;
+	border-color: red;
+}
+.linkContainer{
+	float: right;
+  display: flex;
+  margin:auto;
+}
+.links{
+	margin: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
