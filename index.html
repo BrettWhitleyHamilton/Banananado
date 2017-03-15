@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Welcome to Banananado</title>
+<link rel="icon" href="images/logo.png">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -18,21 +20,14 @@
 		ga('send', 'pageview');
 
 	</script>
-</head>
-<body>
-
 	<div class="topPart">
 		<div class="container">
-			<div class="row">
+			<div class="row" >
 			
-				
-				<ul class="linkContainer row  col-md-4 col-md-offset-8">
-					<li id="work" class="links col-md-4"><a href"#me">Work</a></li>
-					<li id="about" class="links  col-md-4"><a href"#me">About Me</a></li>
-					<li id="contact"class="links col-md-4">Contact</li>
-				</ul>
-				
-			</div>
+			<a href="" class="links col-md-1 col-md-offset-9">Work</a>
+				<a href="#me" class="links col-md-1">About</a>
+				<a href="#contact" class="links col-md-1">Contact</a>
+						</div>
 
 			<div id="welcome"class="row">
 				<div>
@@ -44,6 +39,10 @@
 			</div>
 		</div>
 	</div>
+</head>
+<body>
+
+	
 	<div class="container-fluid" id="workContainer">
 		<div id="work_can_offer" class="row ">
 			<div id="mobile_apps" class="col-md-4">
@@ -79,7 +78,7 @@
 
 	<div class="row" id="me">
 
-		<div id="mePic" class="col-md-3 col-md-offset-1">
+		<div id="mePic" name="mepic" class="col-md-3 col-md-offset-1">
 			<img id="pic_of_me" class="img-responsive img-rounded center-block" src="images/me.jpg">
 		</div>
 		<div id="meStory" class="col-md-6 col-md-offset-1">
@@ -120,17 +119,30 @@
 
 
 
-	<footer id="foot">
+	<footer id="contact">
 		<div class="row" id="contact_me">
 			<div class="row">
 				<h3 class="col-xs-12 col-sm-12 col-md-12" id="contact_title">Contact</h3>
 			</div>
 			<div class="row">
-				<div id="email" class="col-md-2 col-md-offset-5">Email: bretth73@gmail.com</div>
+			<div class="container" id="contactContainer" style="float:left;">
+			<div class="row">
+				<div id="email" class="col-xs-1 col-sm-1 col-md-1" >Email: </div><div class="col-xs-3 col-sm-3 col-md-3">bretth73@gmail.com</div>
+				</div>
+				<div class="row">
+			<div  class="col-xs-1 col-sm-1 col-md-1" style="display: inline">Address: </div>
+			<div class="col-xs-2 col-sm-2 col-md-2"style="display: inline">46 Stevenson Road </br> Penicuik </br> Edinburgh</br>EH26 0LU</div>
+			
+			</div>
+			<div class="row">
+			<div  class="col-xs-1 col-sm-1 col-md-1" style="display: inline">Mobile No: </div>
+			<div class="col-xs-2 col-sm-2 col-md-2"style="display: inline">0741130901</div>
+			
+			</div>
 			</div>
 			<div class="row" >
 				
-				<div id="facebook" class="col-xs-2 col-sm-2 col-md-2 col-md-offset-4 col-sm-offset-4 col-xs-offset-4 social"><img class="center-block " src="images/icons/social/FB50.png"></div>
+				<div id="facebook" class="col-xs-2 col-sm-2 col-md-2 col-md-offset-4 col-sm-offset-4 col-xs-offset-4 social"><a href="https://www.facebook.com/Banananado/"><img class="center-block " src="images/icons/social/FB50.png"></a></div>
 				<div id="linkedin" class="col-xs-2 col-sm-2 col-md-2 social"><a href="https://www.linkedin.com/in/brett-hamilton-b0aa8858/"><img class="center-block " src="images/icons/social/ln48.png"></a></div>
 
 	

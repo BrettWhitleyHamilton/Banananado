@@ -24,7 +24,7 @@ padding:0px;
 
 
 .links{
-	margin-top: 5%;
+	margin-top: 2%;
 display: inline-block;
 font-family: Kayak;
 font-size: 15pt;}
@@ -118,6 +118,9 @@ text-align: left;
 }
 .pads
 {padding:20%;}
-#meStory{padding:5%;}
+#meStory{padding:2%;}
 .social{margin:0px;}
 #add{display: inline;}
+#address{display: inline;}
+#contactContainer{padding: 0px;
+margin: 0px;}
