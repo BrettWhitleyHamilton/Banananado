@@ -118,9 +118,10 @@ text-align: left;
 }
 .pads
 {padding:20%;}
-#meStory{padding:2%;}
+#meStory{padding:5%;}
 .social{margin:0px;}
 #add{display: inline;}
 #address{display: inline;}
 #contactContainer{padding: 0px;
 margin: 0px;}
+#facebook{padding: 0px;}
