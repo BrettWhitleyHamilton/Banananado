@@ -5,7 +5,7 @@
 
 #logo{
 	height: auto;
-	width: 40%;
+	width: 45%;
 
 }
 
@@ -27,7 +27,8 @@ padding:0px;
 	margin-top: 2%;
 display: inline-block;
 font-family: Kayak;
-font-size: 15pt;}
+font-size: 15pt;
+color: #F1E900;}
 
 ul {
     list-style-type: none;
@@ -67,6 +68,7 @@ background-color: #0C0B04;
 	margin-right: 0px;
 }
 .workOfferTitle{
+	font-size: 42pt;
 	text-align: center;
 }
 #mePic{
@@ -89,7 +91,6 @@ background-color: #BFBF00;
 		text-align: center;
 	}
 
-*{outline : 1px solid green;}
 
 #contact_me{
 padding-left: 5%;
@@ -100,7 +101,7 @@ color: #7A7A7A;
 padding-bottom: 2%;
 margin-right: 0px;
 }
-
+* {outline : 1px solid red; }
 .social{
 
 	display: center-block;
@@ -125,3 +126,5 @@ text-align: left;
 #contactContainer{padding: 0px;
 margin: 0px;}
 #facebook{padding: 0px;}
+.spacing{padding-bottom: 2%;}
+.webDevGraphics{padding: 5%;}
