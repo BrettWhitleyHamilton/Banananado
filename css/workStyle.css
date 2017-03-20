@@ -9,12 +9,34 @@ color: #F1E900;
 font-family: Kayak;
 text-align: center;
 border-radius: 15px;
+height:350px;
+width:100%;
 }
 .blockImages{
 	padding: 2%;
-	width: 100%;
+	max-height:100%;
+	max-width: 100%;
 	border-radius: 15px;
-
 }
-#content{width: 80%;}
+.sizeBox{
 
+height:80%;
+}
+
+#content{width: 80%;}
+#contact_me{
+padding-left: 5%;
+padding-right: 5%;
+padding-top: 2%;
+background-color: #373737;
+color: #7A7A7A;
+padding-bottom: 2%;
+margin-right: 0px;
+}
+#contact_title{
+text-align: left;
+	padding:20px;
+	border-bottom: 1px;
+	border-bottom-width: 20px;
+	border-color: yellow;
+}
