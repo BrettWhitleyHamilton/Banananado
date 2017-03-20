@@ -11,13 +11,13 @@
 	"url":"images/logos/flanagans.png",
 	"desc":"This was a unused logo for an Irish Pub. The thought for this design was based on the hanging logos that hang outside pubs but I wanted a more wooden feel to give a sense that it was an old pub"
 	},{
-	"name":"CGS Logo",
+	"name":"CSC Logo",
 	"url":"images/logos/cgs.png",
 	"desc":"This design was created a for a friends football group. The logo and colours were specified by my friend."
 	}],
 "websites":[{
 	"name":"The Diving Tool",
-	"url":"www.thedivingtool.co.nf",
+	"url":"thedivingtool.co.nf",
 	"image":"images/websites/divingtool.png",
 	"desc":"This website was built for my fourth year hounours project. The webiste was designed and built for scuba divers that would allow them to plan dives around the whole of Scotland. I worked with the Edinburgh Napier University Sub-Aqua group. They gave me input on what they look at and decide on where to dive."
 	}],
@@ -28,5 +28,5 @@
 	}]		
 
 
-}]
+}
 
